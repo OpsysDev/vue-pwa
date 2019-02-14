@@ -1,18 +1,14 @@
 self.__precacheManifest = [
   {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
-    "url": "/works-for-plants/robots.txt"
-  },
-  {
     "revision": "016d62b6ee102b727f22",
     "url": "/works-for-plants/js/chunk-vendors.86ad0738.js"
   },
   {
-    "revision": "3e49f35d02d494fc7655",
-    "url": "/works-for-plants/js/app.b6c6ad0a.js"
+    "revision": "2506579ec8c7a6648146",
+    "url": "/works-for-plants/js/app.ee54a216.js"
   },
   {
-    "revision": "1406772bbc7ee6c40e4beb65d478cf3c",
+    "revision": "0868f5faf132145e75a06f76a7b30209",
     "url": "/works-for-plants/index.html"
   },
   {
@@ -20,7 +16,7 @@ self.__precacheManifest = [
     "url": "/works-for-plants/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "3e49f35d02d494fc7655",
+    "revision": "2506579ec8c7a6648146",
     "url": "/works-for-plants/css/app.3c8db9e2.css"
   }
 ];

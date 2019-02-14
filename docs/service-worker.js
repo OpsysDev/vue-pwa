@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/works-for-plants/precache-manifest.1fa3dcd06fea1e34f7f4e705da7f40be.js"
+  "/works-for-plants/precache-manifest.61e0e8fc0c58b0d6fe53243d24892469.js"
 );
 
-workbox.core.setCacheNameDetails({ prefix: "works-for-plants" });
+workbox.core.setCacheNameDetails({prefix: "works-for-plants"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
