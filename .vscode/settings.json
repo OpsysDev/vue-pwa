@@ -1,0 +1,7 @@
+{
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.semi": true,
+  "tslint.autoFixOnSave": true,
+  "editor.formatOnSave": false
+}
