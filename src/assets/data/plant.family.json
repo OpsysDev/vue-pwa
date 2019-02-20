@@ -1,0 +1,157 @@
+[
+  { "plant_family": "アガベ", "id": "1", "plant_type_cd": "1" },
+  {
+    "plant_family": "アストロ／ロバガステリア",
+    "id": "2",
+    "plant_type_cd": "1"
+  },
+  { "plant_family": "アロエ", "id": "3", "plant_type_cd": "1" },
+  {
+    "plant_family": "アルブカ／ゲチリス／トラキアンドラ",
+    "id": "4",
+    "plant_type_cd": "1"
+  },
+  { "plant_family": "サンセベリア", "id": "5", "plant_type_cd": "1" },
+  { "plant_family": "ハオルチア", "id": "6", "plant_type_cd": "1" },
+  { "plant_family": "ドリミア／ラケナリア", "id": "7", "plant_type_cd": "1" },
+  { "plant_family": "アエオニウム", "id": "8", "plant_type_cd": "2" },
+  { "plant_family": "アドロミスクス", "id": "9", "plant_type_cd": "2" },
+  { "plant_family": "オロスタキス", "id": "10", "plant_type_cd": "2" },
+  { "plant_family": "エケベリア", "id": "11", "plant_type_cd": "2" },
+  { "plant_family": "カランコエ", "id": "12", "plant_type_cd": "2" },
+  { "plant_family": "クラッスラ", "id": "13", "plant_type_cd": "2" },
+  {
+    "plant_family": "グラプトペタルム／グラプトセダム",
+    "id": "14",
+    "plant_type_cd": "2"
+  },
+  { "plant_family": "グラプトベリア", "id": "15", "plant_type_cd": "2" },
+  { "plant_family": "コチレドン", "id": "16", "plant_type_cd": "2" },
+  { "plant_family": "シノクラッスラ", "id": "17", "plant_type_cd": "2" },
+  { "plant_family": "セダム", "id": "18", "plant_type_cd": "2" },
+  { "plant_family": "センペルビウム", "id": "19", "plant_type_cd": "2" },
+  { "plant_family": "ダドレアチレコドン", "id": "20", "plant_type_cd": "2" },
+  {
+    "plant_family": "パキフィツム／パキベリア",
+    "id": "21",
+    "plant_type_cd": "2"
+  },
+  { "plant_family": "モナンテス", "id": "22", "plant_type_cd": "2" },
+  { "plant_family": "ロスラリア", "id": "23", "plant_type_cd": "2" },
+  {
+    "plant_family": "アロイノプシス／トリコディアデマ",
+    "id": "24",
+    "plant_type_cd": "3"
+  },
+  { "plant_family": "コノフィツム", "id": "25", "plant_type_cd": "3" },
+  {
+    "plant_family": "チタノプシス／フェネストラリア／フォーカリア",
+    "id": "26",
+    "plant_type_cd": "3"
+  },
+  { "plant_family": "フリチア", "id": "27", "plant_type_cd": "3" },
+  { "plant_family": "リトープス", "id": "28", "plant_type_cd": "3" },
+  { "plant_family": "アストロフィツム", "id": "29", "plant_type_cd": "4" },
+  {
+    "plant_family": "アリオカルプス／ロフォフォラ",
+    "id": "30",
+    "plant_type_cd": "4"
+  },
+  {
+    "plant_family": "エキノカクタス／テロカクタス／フェロカクタス",
+    "id": "31",
+    "plant_type_cd": "4"
+  },
+  { "plant_family": "エキノセレウス", "id": "32", "plant_type_cd": "4" },
+  {
+    "plant_family": "エスポストア／カルネギア／パキケレウム",
+    "id": "33",
+    "plant_type_cd": "4"
+  },
+  {
+    "plant_family": "エピテランサ／ツルビニカルプス／ペレキフォラ",
+    "id": "34",
+    "plant_type_cd": "4"
+  },
+  {
+    "plant_family": "エリオシケ／スルコレブチア／ウェインガルチア",
+    "id": "35",
+    "plant_type_cd": "4"
+  },
+  {
+    "plant_family": "ギムノカリキウム／コリファンタ",
+    "id": "36",
+    "plant_type_cd": "4"
+  },
+  {
+    "plant_family": "ストロンポカクタス／マミラリア",
+    "id": "37",
+    "plant_type_cd": "4"
+  },
+  {
+    "plant_family": "パロディア／メロカクタス",
+    "id": "38",
+    "plant_type_cd": "4"
+  },
+  {
+    "plant_family": "フライレア／リプサリス",
+    "id": "39",
+    "plant_type_cd": "4"
+  },
+  {
+    "plant_family": "ユーフォルビア（夏型）",
+    "id": "40",
+    "plant_type_cd": "5"
+  },
+  {
+    "plant_family": "ユーフォルビア（冬型）",
+    "id": "41",
+    "plant_type_cd": "5"
+  },
+  {
+    "plant_family": "アデニア／オペルクリカリヤ／キフォステンマ／パキコルムス",
+    "id": "42",
+    "plant_type_cd": "6"
+  },
+  {
+    "plant_family": "アデニウム／パキポディウム／ヤトロファ",
+    "id": "43",
+    "plant_type_cd": "6"
+  },
+  {
+    "plant_family": "アナカンプロセス／ケラリア",
+    "id": "44",
+    "plant_type_cd": "6"
+  },
+  {
+    "plant_family": "エキドノプシス／フェルニア／ホーディア",
+    "id": "45",
+    "plant_type_cd": "6"
+  },
+  { "plant_family": "オトンナ／セネシオ", "id": "46", "plant_type_cd": "6" },
+  {
+    "plant_family": "コミフォラ／センナ／ボスウェリア",
+    "id": "47",
+    "plant_type_cd": "6"
+  },
+  {
+    "plant_family": "シンニンギア／ディオスコレア／ブーフォン",
+    "id": "48",
+    "plant_type_cd": "6"
+  },
+  {
+    "plant_family": "スタペリアンサス／プセウドリトス",
+    "id": "49",
+    "plant_type_cd": "6"
+  },
+  {
+    "plant_family": "ドルステニア／ペペロミア／ポーチュラカリア",
+    "id": "50",
+    "plant_type_cd": "6"
+  },
+  {
+    "plant_family": "フォークイエリア／ペラルゴニウム／モンソニア",
+    "id": "51",
+    "plant_type_cd": "6"
+  }
+]

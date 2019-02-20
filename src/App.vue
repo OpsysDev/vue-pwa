@@ -27,7 +27,7 @@ export default class App extends Vue {}
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding: 1px;
   a {
     font-weight: bold;
     color: #2c3e50;
