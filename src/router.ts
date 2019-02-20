@@ -19,13 +19,11 @@ export default new Router({
       path: '/plants',
       name: 'plants',
       component: Plants
-      // component: () => import('./views/Plants.vue'),
     },
     {
       path: '/month',
       name: 'month',
       component: Month
-      // component: () => import('./views/Month.vue'),
     }
   ]
 });

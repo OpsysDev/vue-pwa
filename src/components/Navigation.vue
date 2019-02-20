@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <router-link to="/plants">Plants</router-link>
+    <router-link to="/plants">Plants</router-link> |
     <router-link to="/Month">Month</router-link>
   </div>
 </template>
@@ -13,4 +13,6 @@ export default class Navigation extends Vue {}
 </script>
 
 <style lang="scss" scoped>
+.nav{
+}
 </style>

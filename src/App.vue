@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <navigation/>
+      <wfpheader/>
     </div>
     <router-view/>
   </div>
@@ -9,10 +9,10 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import navigation from '@/components/Navigation.vue';
+import wfpheader from '@/components/Header.vue';
 @Component({
   components: {
-    navigation
+    wfpheader
   }
 })
 export default class App extends Vue {}
