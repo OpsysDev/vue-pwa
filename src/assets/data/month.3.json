@@ -1,7 +1,7 @@
 [
   {
-    "plant_family_cd": "1",
-    "plant_type_cd": "1",
+    "plant_family": "アガベ",
+    "plant_type": "アロエ",
     "watering": "用土が乾いたらたっぷり",
     "fertilizer": "元肥のみ。肥料なし",
     "location": "日当たりと風通しのよい雨よけのある屋外",
@@ -14,8 +14,8 @@
     "other": "殺虫剤散布"
   },
   {
-    "plant_family_cd": "2",
-    "plant_type_cd": "1",
+    "plant_family": "アストロ／ロバガステリア",
+    "plant_type": "アロエ",
     "watering": "用土が乾いたらたっぷり",
     "fertilizer": "薄めの液肥（元肥があれば追肥なし）",
     "location": "日当たりと風通しのよい雨よけのある屋外",
@@ -28,8 +28,8 @@
     "other": "殺虫剤散布"
   },
   {
-    "plant_family_cd": "3",
-    "plant_type_cd": "1",
+    "plant_family": "アロエ",
+    "plant_type": "アロエ",
     "watering": "用土が乾いたらたっぷり",
     "fertilizer": "薄めの液肥（元肥があれば追肥なし）",
     "location": "日当たりと風通しのよい雨よけのある屋外（長雨に当てない）",
@@ -42,8 +42,8 @@
     "other": "殺虫剤散布"
   },
   {
-    "plant_family_cd": "4",
-    "plant_type_cd": "1",
+    "plant_family": "アルブカ／ゲチリス／トラキアンドラ",
+    "plant_type": "アロエ",
     "watering": "用土が乾いたらたっぷり",
     "fertilizer": "薄めの液肥を1回",
     "location": "日当たりと風通しのよい雨よけのある屋外",
@@ -56,8 +56,8 @@
     "other": "殺虫剤散布"
   },
   {
-    "plant_family_cd": "5",
-    "plant_type_cd": "1",
+    "plant_family": "サンセベリア",
+    "plant_type": "アロエ",
     "watering": "断水",
     "fertilizer": "元肥のみ。肥料なし",
     "location": "屋外の簡易フレームや窓辺",
@@ -70,8 +70,8 @@
     "other": "殺虫剤散布"
   },
   {
-    "plant_family_cd": "6",
-    "plant_type_cd": "1",
+    "plant_family": "ハオルチア",
+    "plant_type": "アロエ",
     "watering": "用土が乾いたらたっぷり",
     "fertilizer": "元肥のみ。肥料なし",
     "location": "日当たりと風通しのよい雨よけのある屋外",
@@ -84,8 +84,8 @@
     "other": "殺虫剤散布"
   },
   {
-    "plant_family_cd": "7",
-    "plant_type_cd": "1",
+    "plant_family": "ドリミア／ラケナリア",
+    "plant_type": "アロエ",
     "watering": "用土が乾いたらたっぷり",
     "fertilizer": "薄めの液肥を1回",
     "location": "日当たりと風通しのよい雨よけのある屋外",
@@ -98,8 +98,8 @@
     "other": "殺虫剤散布"
   },
   {
-    "plant_family_cd": "8",
-    "plant_type_cd": "2",
+    "plant_family": "アエオニウム",
+    "plant_type": "ベンケイソウ",
     "watering": "用土が乾いたらたっぷり",
     "fertilizer": "薄めの液肥を1回",
     "location": "日当たりと風通しのよい雨よけのある屋外（長雨に当てない）",
@@ -112,8 +112,8 @@
     "other": "殺虫剤散布"
   },
   {
-    "plant_family_cd": "9",
-    "plant_type_cd": "2",
+    "plant_family": "アドロミスクス",
+    "plant_type": "ベンケイソウ",
     "watering": "用土が乾いたらたっぷり（雨の多い時期は控える）",
     "fertilizer": "元肥のみ。肥料なし",
     "location": "日当たりと風通しのよい屋外",
@@ -126,8 +126,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "10",
-    "plant_type_cd": "2",
+    "plant_family": "オロスタキス",
+    "plant_type": "ベンケイソウ",
     "watering": "用土が乾いたらたっぷり（雨の多い時期は控える）",
     "fertilizer": "元肥のみ。肥料なし",
     "location": "日当たりと風通しのよい屋外",
@@ -140,8 +140,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "11",
-    "plant_type_cd": "2",
+    "plant_family": "エケベリア",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -154,8 +154,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "12",
-    "plant_type_cd": "2",
+    "plant_family": "カランコエ",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -168,8 +168,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "13",
-    "plant_type_cd": "2",
+    "plant_family": "クラッスラ",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -182,8 +182,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "14",
-    "plant_type_cd": "2",
+    "plant_family": "グラプトペタルム／グラプトセダム",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -196,8 +196,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "15",
-    "plant_type_cd": "2",
+    "plant_family": "グラプトベリア",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -210,8 +210,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "16",
-    "plant_type_cd": "2",
+    "plant_family": "コチレドン",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -224,8 +224,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "17",
-    "plant_type_cd": "2",
+    "plant_family": "シノクラッスラ",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -238,8 +238,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "18",
-    "plant_type_cd": "2",
+    "plant_family": "セダム",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -252,8 +252,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "19",
-    "plant_type_cd": "2",
+    "plant_family": "センペルビウム",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -266,8 +266,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "20",
-    "plant_type_cd": "2",
+    "plant_family": "ダドレアチレコドン",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -280,8 +280,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "21",
-    "plant_type_cd": "2",
+    "plant_family": "パキフィツム／パキベリア",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -294,8 +294,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "22",
-    "plant_type_cd": "2",
+    "plant_family": "モナンテス",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -308,8 +308,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "23",
-    "plant_type_cd": "2",
+    "plant_family": "ロスラリア",
+    "plant_type": "ベンケイソウ",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -322,8 +322,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "24",
-    "plant_type_cd": "3",
+    "plant_family": "アロイノプシス／トリコディアデマ",
+    "plant_type": "メセン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -336,8 +336,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "25",
-    "plant_type_cd": "3",
+    "plant_family": "コノフィツム",
+    "plant_type": "メセン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -350,8 +350,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "26",
-    "plant_type_cd": "3",
+    "plant_family": "チタノプシス／フェネストラリア／フォーカリア",
+    "plant_type": "メセン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -364,8 +364,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "27",
-    "plant_type_cd": "3",
+    "plant_family": "フリチア",
+    "plant_type": "メセン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -378,8 +378,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "28",
-    "plant_type_cd": "3",
+    "plant_family": "リトープス",
+    "plant_type": "メセン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -392,8 +392,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "29",
-    "plant_type_cd": "4",
+    "plant_family": "アストロフィツム",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -406,8 +406,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "30",
-    "plant_type_cd": "4",
+    "plant_family": "アリオカルプス／ロフォフォラ",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -420,8 +420,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "31",
-    "plant_type_cd": "4",
+    "plant_family": "エキノカクタス／テロカクタス／フェロカクタス",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -434,8 +434,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "32",
-    "plant_type_cd": "4",
+    "plant_family": "エキノセレウス",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -448,8 +448,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "33",
-    "plant_type_cd": "4",
+    "plant_family": "エスポストア／カルネギア／パキケレウム",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -462,8 +462,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "34",
-    "plant_type_cd": "4",
+    "plant_family": "エピテランサ／ツルビニカルプス／ペレキフォラ",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -476,8 +476,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "35",
-    "plant_type_cd": "4",
+    "plant_family": "エリオシケ／スルコレブチア／ウェインガルチア",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -490,8 +490,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "36",
-    "plant_type_cd": "4",
+    "plant_family": "ギムノカリキウム／コリファンタ",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -504,8 +504,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "37",
-    "plant_type_cd": "4",
+    "plant_family": "ストロンポカクタス／マミラリア",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -518,8 +518,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "38",
-    "plant_type_cd": "4",
+    "plant_family": "パロディア／メロカクタス",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -532,8 +532,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "39",
-    "plant_type_cd": "4",
+    "plant_family": "フライレア／リプサリス",
+    "plant_type": "サボテン",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -546,8 +546,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "40",
-    "plant_type_cd": "5",
+    "plant_family": "ユーフォルビア（夏型）",
+    "plant_type": "ユーフォルビア",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -560,8 +560,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "41",
-    "plant_type_cd": "5",
+    "plant_family": "ユーフォルビア（冬型）",
+    "plant_type": "ユーフォルビア",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -574,8 +574,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "42",
-    "plant_type_cd": "6",
+    "plant_family": "アデニア／オペルクリカリヤ／キフォステンマ／パキコルムス",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -588,8 +588,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "43",
-    "plant_type_cd": "6",
+    "plant_family": "アデニウム／パキポディウム／ヤトロファ",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -602,8 +602,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "44",
-    "plant_type_cd": "6",
+    "plant_family": "アナカンプロセス／ケラリア",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -616,8 +616,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "45",
-    "plant_type_cd": "6",
+    "plant_family": "エキドノプシス／フェルニア／ホーディア",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -630,8 +630,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "46",
-    "plant_type_cd": "6",
+    "plant_family": "オトンナ／セネシオ",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -644,8 +644,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "47",
-    "plant_type_cd": "6",
+    "plant_family": "コミフォラ／センナ／ボスウェリア",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -658,8 +658,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "48",
-    "plant_type_cd": "6",
+    "plant_family": "シンニンギア／ディオスコレア／ブーフォン",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -672,8 +672,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "49",
-    "plant_type_cd": "6",
+    "plant_family": "スタペリアンサス／プセウドリトス",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -686,8 +686,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "50",
-    "plant_type_cd": "6",
+    "plant_family": "ドルステニア／ペペロミア／ポーチュラカリア",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",
@@ -700,8 +700,8 @@
     "other": ""
   },
   {
-    "plant_family_cd": "51",
-    "plant_type_cd": "6",
+    "plant_family": "フォークイエリア／ペラルゴニウム／モンソニア",
+    "plant_type": "コーデックス／その他",
     "watering": "",
     "fertilizer": "",
     "location": "",

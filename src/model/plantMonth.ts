@@ -1,6 +1,6 @@
 export interface PlantMonth {
-  plantFamilyCd: number;
-  plantTypeCd: number;
+  plantFamily: string;
+  plantType: string;
   watering?: string;
   fertilizer?: string;
   location?: string;

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/works-for-plants/precache-manifest.5eb9a88b8ef5bdd3ef72bd746c9f360a.js"
+  "/works-for-plants/precache-manifest.823a494be22779ea17a0949f8d11e1dd.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "works-for-plants"});

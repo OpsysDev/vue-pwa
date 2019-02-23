@@ -1,18 +1,22 @@
 <template>
   <div id="app">
     <div id="nav">
-      <wfpheader/>
+      <WfpHeader/>
     </div>
     <router-view/>
+    <WfpFooter/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import wfpheader from '@/components/Header.vue';
+import WfpHeader from '@/components/Header.vue';
+import WfpFooter from '@/components/Footer.vue';
+
 @Component({
   components: {
-    wfpheader
+    WfpHeader,
+    WfpFooter
   }
 })
 export default class App extends Vue {}
