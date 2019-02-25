@@ -1,16 +1,16 @@
 <template>
-  <v-app>
+  
     <div class="month">
       <div>
         <v-tabs color="cyan" dark slider-color="yellow">
-          <v-tab v-for="data in dataList" :key="data.month" ripple>{{ data.month }}月</v-tab>
+          <v-tab v-for="data in dataList" :key="data.month" ripple>{{ data.month }}</v-tab>
           <v-tab-item v-for="data in dataList" :key="data.month">
             <v-card flat>
               <v-card-text>
                 <v-data-table
                   :headers="headers"
                   :items="data.works"
-                  :loading="false"
+                  :rows-per-page-items="rows"
                   class="elevation-1 table-header"
                 >
                   <template slot="items" slot-scope="props">
@@ -36,7 +36,7 @@
         </v-tabs>
       </div>
     </div>
-  </v-app>
+  
 </template>
 
 <script lang='ts'>
@@ -44,7 +44,7 @@ import { Component, Vue } from 'vue-property-decorator';
 import { PlantMonth, PlantType, PlantFamily } from '../model/index';
 
 export interface PlantMonthList {
-  month: number;
+  month: string;
   works: PlantMonth;
 }
 
@@ -72,20 +72,24 @@ export default class Month extends Vue {
     ];
   }
 
+  get rows () {
+    return [10, 20, 30, { text : '$vuetify.dataIterator.rowsPerPageAll',value: -1 }];
+  }
+
   constructor () {
     super();
-
-    this.dataList.push({
-      month: 3,
-      works: this.month3Data
-    });
-    this.dataList.push({
-      month: 4,
-      works: this.month4Data
-    });
+    this.setJsonData(this.dataList, this.month3Data);
+    this.setJsonData(this.dataList, this.month4Data);
 
   }
 
+  private setJsonData (list: any[], json: any): void {
+    const key: string = Object.keys(json)[0];
+    list.push({
+      month: key,
+      works: json[key]
+    });
+  }
 
 }
 </script>

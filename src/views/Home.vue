@@ -1,10 +1,16 @@
 <template>
-  <div class="home">
-    <div class="link-btn">
-      <div class="link-btn_plants"></div>
-      <div class="link-btn_month"></div>
-    </div>
-  </div>
+  <v-container fluid>
+    <v-layout align-center justify-center row fill-height class="home">
+      <v-flex xs12 sm4 text-xs-center>
+        <v-btn large>
+          <router-link to="/plants" class="link-btn">Plants</router-link>
+        </v-btn>
+        <v-btn large>
+          <router-link to="/month" class="link-btn">Month</router-link>
+        </v-btn>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script lang="ts">
@@ -18,25 +24,10 @@ export default class Home extends Vue {}
 
 <style lang="scss">
 .home {
-  width: 100vw;
-  height: auto;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
+  height: fill-available;
 }
 
 .link-btn {
-  padding-top: 200px;
-  display: flex;
-  justify-content: center;
-  &_plants {
-    height: 100px;
-    width: 100px;
-  }
-  &_month {
-    height: 100px;
-    width: 100px;
-  }
+  text-decoration: none;
 }
 </style>

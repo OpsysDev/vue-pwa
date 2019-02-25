@@ -1,13 +1,11 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <WfpHeader/>
-    </div>
+  <v-app>
     <div class="page">
+      <WfpHeader/>
       <router-view/>
+      <WfpFooter/>
     </div>
-    <WfpFooter/>
-  </div>
+  </v-app>
 </template>
 
 <script lang="ts">
@@ -25,7 +23,7 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-#app {
+.page {
   background-size: cover;
   background-position: center;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -33,19 +31,6 @@ export default class App extends Vue {}
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-
-  margin: -1px;
   background-image: url("./assets/photos/greenhouse-768740_1280.jpg");
-
-}
-#nav {
-  padding: 1px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 </style>

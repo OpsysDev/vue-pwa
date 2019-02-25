@@ -1,6 +1,5 @@
 <template>
   <div class="plants">
-    <div class="p-title">plants Component</div>
     <div>plant-type-data: {{plantTypeData}}</div>
     <div>plant-family-data: {{plantFamilyData}}</div>
   </div>
