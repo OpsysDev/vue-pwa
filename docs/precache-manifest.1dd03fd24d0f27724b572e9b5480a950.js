@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/works-for-plants/robots.txt"
   },
   {
-    "revision": "5dde4597737e5e2ef76d",
-    "url": "/works-for-plants/js/chunk-vendors.341b8ead.js"
+    "revision": "e2d33640c4e300367fb5",
+    "url": "/works-for-plants/js/chunk-vendors.d4d19a9d.js"
   },
   {
-    "revision": "56bf48f9a084a5da0510",
-    "url": "/works-for-plants/js/app.7256ed86.js"
+    "revision": "4457e92d7fbc6a32c1b3",
+    "url": "/works-for-plants/js/app.1d08fa18.js"
   },
   {
-    "revision": "095fffe12f3c37e5cc92e0f107347447",
+    "revision": "b03f137cd69f81b82e489242dfb7f0d5",
     "url": "/works-for-plants/index.html"
   },
   {
@@ -24,11 +24,11 @@ self.__precacheManifest = [
     "url": "/works-for-plants/img/greenhouse-768740_1280.6a3b98dc.jpg"
   },
   {
-    "revision": "5dde4597737e5e2ef76d",
-    "url": "/works-for-plants/css/chunk-vendors.f2b7d0dd.css"
+    "revision": "e2d33640c4e300367fb5",
+    "url": "/works-for-plants/css/chunk-vendors.cb74081c.css"
   },
   {
-    "revision": "56bf48f9a084a5da0510",
-    "url": "/works-for-plants/css/app.9dd5b3de.css"
+    "revision": "4457e92d7fbc6a32c1b3",
+    "url": "/works-for-plants/css/app.62dcbdbf.css"
   }
 ];

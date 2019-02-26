@@ -24,7 +24,7 @@ export default class Home extends Vue {}
 
 <style lang="scss">
 .home {
-  height: fill-available;
+  height: 100vh;
 }
 
 .link-btn {
