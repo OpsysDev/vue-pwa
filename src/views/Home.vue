@@ -2,12 +2,13 @@
   <v-container fluid>
     <v-layout align-center justify-center row fill-height class="home">
       <v-flex xs12 sm4 text-xs-center>
-        <v-btn large>
-          <router-link to="/plants" class="link-btn">Plants</router-link>
-        </v-btn>
-        <v-btn large>
-          <router-link to="/month" class="link-btn">Month</router-link>
-        </v-btn>
+        <router-link to="/plants" class="link-btn">
+          <v-btn large>Plants</v-btn>
+        </router-link>
+
+        <router-link to="/month" class="link-btn">
+          <v-btn large>Month</v-btn>
+        </router-link>
       </v-flex>
     </v-layout>
   </v-container>

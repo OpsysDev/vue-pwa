@@ -48,10 +48,7 @@ export interface PlantMonthList {
 
 @Component
 export default class Month extends Vue {
-  // private readonly month3Data = require('../assets/data/month.3.json');
-  // private readonly month4Data = require('../assets/data/month.4.json');
-  // private readonly typeJson = require('../assets/data/plant.type.json');
-  // private readonly familyJson = require('../assets/data/plant.family.json');
+
   private dataList: PlantMonthList[] = [];
 
   get headers () {
@@ -82,10 +79,10 @@ export default class Month extends Vue {
   constructor () {
     super();
 
-    const may = localStorage.getItem('may');
-    const jun = localStorage.getItem('jun');
-    this.setJsonData(this.dataList, may ? JSON.parse(may) : {});
-    this.setJsonData(this.dataList, jun ? JSON.parse(jun) : {});
+    const mar = sessionStorage.getItem('mar');
+    const apr = sessionStorage.getItem('apr');
+    this.setJsonData(this.dataList, mar ? JSON.parse(mar) : {});
+    this.setJsonData(this.dataList, apr ? JSON.parse(apr) : {});
   }
 
   private setJsonData (list: any[], json: any): void {
