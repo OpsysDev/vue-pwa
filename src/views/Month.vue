@@ -40,6 +40,7 @@
 <script lang='ts'>
 import { Component, Vue } from 'vue-property-decorator';
 import { PlantMonth, PlantType, PlantFamily } from '../model/index';
+import { Const } from '../const';
 
 export interface PlantMonthList {
   month: string;
@@ -49,7 +50,7 @@ export interface PlantMonthList {
 @Component
 export default class Month extends Vue {
 
-  private dataList: PlantMonthList[] = [];
+  private dataList: any[] = [];
 
   get headers () {
     return [
@@ -79,20 +80,33 @@ export default class Month extends Vue {
   constructor () {
     super();
 
-    const mar = sessionStorage.getItem('mar');
-    const apr = sessionStorage.getItem('apr');
-    this.setJsonData(this.dataList, mar ? JSON.parse(mar) : {});
-    this.setJsonData(this.dataList, apr ? JSON.parse(apr) : {});
+    const year = new Const().getYearList();
+    this.dataList = this.getStorage(year);
   }
 
-  private setJsonData (list: any[], json: any): void {
+
+  private getStorage (keys: string[]): any[] {
+    let list = [];
+    for (const key of keys) {
+      const val = sessionStorage.getItem(key);
+      if (val) {
+        list = this.setJsonData(list, JSON.parse(val));
+      }
+    }
+    return list;
+  }
+
+  private setJsonData (list: any[], json: any) {
     const key: string = Object.keys(json)[0];
     list.push({
       month: key,
       works: json[key]
     });
+    return list;
   }
+
 }
+
 </script>
 
 <style lang="scss">

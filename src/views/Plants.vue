@@ -21,8 +21,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { PlantYear, WorkMonth } from '../model/index';
-
-const Year: string[] = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+import { Const } from '../const';
 
 @Component
 export default class Plants extends Vue {
@@ -31,10 +30,11 @@ export default class Plants extends Vue {
   private valid: boolean = true;
   private select = null;
   private selected = '';
+  private yearList: string[] = [];
 
   get items () {
     const selectArray: string[] = [];
-    const plantFamily = sessionStorage.getItem('family');
+    const plantFamily = sessionStorage.getItem(Const.FAMILY);
     if (plantFamily) {
       const jsonData = JSON.parse(plantFamily);
       if (jsonData) {
@@ -48,6 +48,7 @@ export default class Plants extends Vue {
 
   constructor () {
     super();
+    this.yearList = new Const().getYearList();
   }
 
   public onChange (select: string) {
@@ -59,7 +60,7 @@ export default class Plants extends Vue {
 
   private setPlantData (): PlantYear {
     let data: PlantYear;
-    const worksData = this.storageToWorks(Year);
+    const worksData = this.storageToWorks(this.yearList);
 
     data = {
       plantName: this.plantName,
@@ -85,8 +86,8 @@ export default class Plants extends Vue {
           work = {
             month: key, watering: familyData[0].watering,
             fertilizer: familyData[0].fertilizer, location: familyData[0].location,
-            status: familyData[0].status1 + ',' + familyData[0].status2,
-            work: [familyData[0].work1,familyData[0].work2,familyData[0].work3,familyData[0].work4],
+            status: `${familyData[0].status1},${familyData[0].status2}`,
+            work: [`${familyData[0].work1},${familyData[0].work2},${familyData[0].work3},${familyData[0].work4}`],
             other: familyData[0].other };
 
           works.push(work);
