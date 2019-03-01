@@ -1,6 +1,16 @@
 <template>
   <div class="month">
     <div>
+      <v-flex xs4 class="month-search">
+        <v-text-field
+          class="month-search"
+          append-icon="search"
+          label="検索文字を入力してください"
+          single-line
+          hide-details
+          v-model="search"
+        ></v-text-field>
+      </v-flex>
       <v-tabs color="cyan" dark slider-color="yellow">
         <v-tab v-for="data in dataList" :key="data.month" ripple>{{ data.month }}</v-tab>
         <v-tab-item v-for="data in dataList" :key="data.month">
@@ -11,6 +21,7 @@
                 :items="data.works"
                 :rows-per-page-items="rows"
                 class="elevation-1 table-header"
+                :search="search"
               >
                 <template slot="items" slot-scope="props">
                   <td>{{ props.item.plant_family }}</td>
@@ -49,8 +60,8 @@ export interface PlantMonthList {
 
 @Component
 export default class Month extends Vue {
-
   private dataList: any[] = [];
+  private search: string = '';
 
   get headers () {
     return [
@@ -84,7 +95,6 @@ export default class Month extends Vue {
     this.dataList = this.getStorage(year);
   }
 
-
   private getStorage (keys: string[]): any[] {
     let list = [];
     for (const key of keys) {
@@ -104,9 +114,7 @@ export default class Month extends Vue {
     });
     return list;
   }
-
 }
-
 </script>
 
 <style lang="scss">
@@ -115,5 +123,8 @@ export default class Month extends Vue {
   th {
     font-weight: bold;
   }
+}
+.month-search {
+  background-color: #fff;
 }
 </style>

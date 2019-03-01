@@ -10,7 +10,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <router-link to="/plants" class="nav-link"><v-btn flat>Plants</v-btn></router-link>
-        <router-link to="/month" class="nav-link"><v-btn flat>Month</v-btn></router-link>
+        <router-link to="/month" class="nav-link"><v-btn flat>Works</v-btn></router-link>
       </v-toolbar-items>
       <v-toolbar-side-icon></v-toolbar-side-icon>
     </v-toolbar>

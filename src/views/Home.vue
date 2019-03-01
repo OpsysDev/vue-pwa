@@ -3,11 +3,11 @@
     <v-layout align-center justify-center row fill-height class="home">
       <v-flex xs12 sm4 text-xs-center>
         <router-link to="/plants" class="link-btn">
-          <v-btn large>Plants</v-btn>
+          <v-btn large>植物登録</v-btn>
         </router-link>
 
         <router-link to="/month" class="link-btn">
-          <v-btn large>Month</v-btn>
+          <v-btn large>作業一覧を見る</v-btn>
         </router-link>
       </v-flex>
     </v-layout>
