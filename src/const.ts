@@ -14,6 +14,12 @@ export class Const {
   public static readonly TYPE = 'type';
   public static readonly FAMILY = 'family';
 
+  public static readonly WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather?';
+  public static readonly URL_PARAM_KEY = 'appid=';
+  public static readonly URL_PARAM_Q = 'q=';
+  public static readonly COUNTRY_CD = 'jp';
+  public static readonly REQUEST_MODE_HTML = 'mode=html';
+
   public getYearList (): string[] {
     return [
       Const.JAN, Const.FEB, Const.MAR, Const.APR,
