@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/works-for-plants/js/chunk-vendors.5d4996e1.js"
   },
   {
-    "revision": "e6757ed7bf458e313c2f",
-    "url": "/works-for-plants/js/app.414fec16.js"
+    "revision": "cdbba23cae0a5a836d4b",
+    "url": "/works-for-plants/js/app.dc3a7ab8.js"
   },
   {
-    "revision": "336dfaa8f0c4ec28d2ab171b381334ba",
+    "revision": "e8696884e0f3f5d575cd6ace2bc6a184",
     "url": "/works-for-plants/index.html"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/works-for-plants/css/chunk-vendors.e04f6a6f.css"
   },
   {
-    "revision": "e6757ed7bf458e313c2f",
-    "url": "/works-for-plants/css/app.02f07945.css"
+    "revision": "cdbba23cae0a5a836d4b",
+    "url": "/works-for-plants/css/app.a94e36d7.css"
   }
 ];
