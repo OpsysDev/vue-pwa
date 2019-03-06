@@ -13,7 +13,8 @@
     </v-layout>
     <div class="home-weather">
         <div class="home-weather_display">
-          {{ htmlData }}
+          <div v-if="!errorFlg" v-html="weather"></div>
+          <div v-else>{{weather}}</div>
         </div>
         <div class="home-weather_licenses">
           &copy;<a href="https://openweathermap.org/">OpenWeatherMap</a> contributors,
@@ -25,15 +26,35 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import { Const } from '../const';
+import axios from 'axios';
 
 @Component({
   components: {}
 })
 export default class Home extends Vue {
-  private htmlData: any = 'wip';
+  private weather = '';
+  private errorFlg: boolean = false;
   constructor () {
     super();
-    this.htmlData = `${process.env.VUE_APP_WEATHER_KEY}`;
+    this.getWeather('tokyo');
+  }
+
+  public getWeather (city: string) {
+    axios
+    // tslint:disable-next-line:max-line-length
+    .get(`${Const.WEATHER_URL}${Const.URL_PARAM_KEY}${process.env.VUE_APP_WEATHER_KEY}&${Const.URL_PARAM_Q}${city},${Const.COUNTRY_CD}&${Const.REQUEST_MODE_HTML}`)
+    .then((response) => {
+      this.weather = response.data;
+      if (response.status !== 200) {
+        this.errorFlg = true;
+        this.weather = response.statusText;
+      }
+    })
+    .catch((error) => {
+      this.weather = error.toString();
+      this.errorFlg = true;
+    });
   }
 
 }
@@ -58,6 +79,7 @@ export default class Home extends Vue {
 
   &_display {
     height: 100%;
+    margin: auto;
   }
 
   &_licenses {
