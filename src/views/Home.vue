@@ -33,7 +33,7 @@ export default class Home extends Vue {
   private htmlData: any = 'wip';
   constructor () {
     super();
-    this.htmlData = process.env.VUE_APP_WEATHER_KEY;
+    this.htmlData = `${process.env.VUE_APP_WEATHER_KEY}`;
   }
 
 }
